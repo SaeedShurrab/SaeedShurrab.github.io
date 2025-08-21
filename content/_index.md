@@ -6,37 +6,37 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "2rem"
 
 sections:
-  - block: resume-biography-3
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
+      text: "<center>Saeed Shurrab is a Biomedical Engineering PhD student at the Clinical Artificial Intelligence Lab - New York University Abu Dhabi. He earned his MSc in Data Science and Artificial Intelligence from Jordan University of Science and Technology, where he was awarded the prestigious German Academic Exchange Scholarship (DAAD) and graduated with distinction in 2022. Before this, he completed his BSc in Industrial and Systems Engineering at the Islamic University of Gaza, Palestine, in 2014. Saeed’s passion for data analytics and his strong belief in the transformative power of data in driving robust decision-making and innovative solutions led him to pursue a career in data science.</center>"
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-    design:
-      css_class: dark
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
+    # design:
+      # css_class: dark
       # Avatar customization
-      avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      # avatar:
+        # size: large  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        # shape: circle # Options: circle (default), square, rounded
+      # background:
+      #   color: black
+      #   image:
+      #     # Add your image background to `assets/media/`.
+      #     filename: stacked-peaks.svg
+      #     filters:
+      #       brightness: 1.0
+      #     size: cover
+      #     position: center
+      #     parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '✌🏻 My Research'
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
@@ -56,7 +56,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: collection
     content:
       title: Recent Publications

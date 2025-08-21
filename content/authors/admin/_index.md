@@ -1,20 +1,20 @@
 ---
 # Display name
-title: 吳健雄
+title: Saeed A. Shurrab
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Saeed A. 
+last_name: Shurrab
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: he/his/him
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ✌🏻
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,36 +23,38 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: New York University Abu Dhabi
+    url: https://nyuad.nyu.edu/
+  - name: Tandon School of Engineering - NYU
+    url: https://engineering.nyu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sas10092@nyu.edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/saeedsh91
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/SaeedShurrab
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/saeedshurrab/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=HYA9rgYAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0008-7008-9158
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Self-supervised learning
+  - Multi-modal Learning
+  - Electronic Health Data Modelling
 
 education:
   - area: PhD Artificial Intelligence
@@ -186,4 +188,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Saeed Shurrab is a Biomedical Engineering PhD student at the Clinical Artificial Intelligence Lab - New York University Abu Dhabi. He earned his MSc in Data Science and Artificial Intelligence from Jordan University of Science and Technology, where he was awarded the prestigious German Academic Exchange Scholarship (DAAD) and graduated with distinction in 2022. Before this, he completed his BSc in Industrial and Systems Engineering at the Islamic University of Gaza, Palestine, in 2014. Saeed’s passion for data analytics and his strong belief in the transformative power of data in driving robust decision-making and innovative solutions led him to pursue a career in data science.
