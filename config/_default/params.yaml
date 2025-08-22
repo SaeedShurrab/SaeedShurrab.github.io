@@ -4,10 +4,16 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
+# appearance:
+#   mode: system
+#   color: blue
+#   # font: sans-serif
+
 appearance:
-  mode: light
-  color: blue
-  # font: sans-serif
+  theme_day: main
+  theme_night: main
+  font: minimal
+  font_size: XL
 
 # SEO
 marketing:
