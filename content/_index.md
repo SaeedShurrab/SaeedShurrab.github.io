@@ -13,7 +13,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "<center>Saeed Shurrab is a Biomedical Engineering PhD student at the Clinical Artificial Intelligence Lab - New York University Abu Dhabi. He earned his MSc in Data Science and Artificial Intelligence from Jordan University of Science and Technology, where he was awarded the prestigious German Academic Exchange Scholarship (DAAD) and graduated with distinction in 2022. Before this, he completed his BSc in Industrial and Systems Engineering at the Islamic University of Gaza, Palestine, in 2014. Saeed’s passion for data analytics and his strong belief in the transformative power of data in driving robust decision-making and innovative solutions led him to pursue a career in data science.</center>"
+      text:  <center>I am currently pursuing a Ph.D. in Biomedical Engineering at New York University Abu Dhabi and the Tandon School of Engineering at NYU, as a Global Ph.D. Fellow with the Clinical AI Lab.  In 2022, I earned my Master of Science in Data Science and Artificial Intelligence, with distinction, from Jordan University of Science and Technology. My master's studies were fully funded through the prestigious German Academic Exchange Service (DAAD) award. Prior to that, in 2014, I completed my Bachelor of Science in Industrial and Systems Engineering at the Islamic University of Gaza. My passion for data analytics, coupled with a strong belief in the transformative power of data to drive robust decision-making and innovative solutions, has led me to pursue a career in data science focused on machine learning applications for healthcare data.</center>
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download CV
@@ -34,18 +34,14 @@ sections:
       #     size: cover
       #     position: center
       #     parallax: false
-  # - block: markdown
-  #   content:
-  #     title: '✌🏻 My Research'
-  #     subtitle: ''
-  #     text: |-
-  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-  #       Please reach out to collaborate 😃
-  #   design:
-  #     columns: '1'
+  - block: markdown
+    content:
+      title: 'Research Focus ✌🏻'
+      subtitle: ''
+      text: |- 
+        <center> My current research focuses on developing foundation models for structured electronic health record (EHR) data, with a particular emphasis on advancing the retrieval of patients historical events for clinical prediction tasks via retrieval-augmented techniques. I am interested in creating value-aware and context-sensitive encodings that better capture the complexity of patient trajectories, enabling more accurate prediction, retrieval, and decision-support systems. Ultimately, my goal is to design machine learning methods that are both clinically meaningful and computationally robust, driving progress toward safer, more reliable, and patient-centered applications of artificial intelligence in healthcare.</center>
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:
